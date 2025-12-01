@@ -17,6 +17,9 @@ body {
   background-color: var(--cor-fundo);
   height: 100%;
   overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .bem-vindo {
@@ -26,7 +29,8 @@ body {
 .corpo {
   flex-direction: row;
   display: flex;
-  height: 100%;
+  flex: 1;
+  height: auto;
   overflow: hidden;
 }
 
